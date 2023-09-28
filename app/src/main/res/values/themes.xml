@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.UberClone" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
@@ -6,4 +6,12 @@
     </style>
 
     <style name="Theme.UberClone" parent="Base.Theme.UberClone" />
+    <!--    Adding splashscreen Theme-->
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- The first item makes the splashcreen cover the whole screen-->
+        <item name="android:windowFullscreen">true</item>
+        <!--        Added the background image for the splashscreen.-->
+        <item name="android:windowBackground">@drawable/rider_splash_screen</item>
+    </style>
+
 </resources>
