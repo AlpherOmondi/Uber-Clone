@@ -52,4 +52,6 @@ dependencies {
     // explicitly depend on RxJava's latest version for bug fixes and new features.
     // (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
     implementation ("io.reactivex.rxjava3:rxjava:3.1.5")
+    // Firebase ui authentication
+    implementation("com.firebaseui:firebase-ui-auth:7.2.0")
 }
